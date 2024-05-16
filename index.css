@@ -1,0 +1,136 @@
+
+body{
+  background-color: #d9d9d9;
+}
+
+.inner{
+  margin-left: 550px;
+  margin-top: 350px;
+  cursor: pointer;
+  height: 50px;
+  width: 10%;
+  background-color: whitesmoke;
+  font-size: 40px;
+  padding-left: 20px;
+  border-radius: 4px;
+}
+
+.initial{
+  width: 100%;
+  background-color: darkred;
+  position: absolute;
+  box-sizing: border-box;
+  transition: transform 0.5s ease-in-out;
+  height: 750px;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0 0 20px;
+  max-width: 800px;
+  border-radius: 15px;
+  /* margin: 40px auto; */
+  margin-left: 445px;
+
+}
+
+.initial.slidedown {
+  transform: translateY(100%);
+  transition: transform 0s ease-in-out;
+}
+.screen{
+  background-color: rgb(214, 213, 204);
+  width: 100%;
+  margin: 0;
+  height: 300px;
+  font-size: 35px;
+}
+.screen .blink{
+ 
+  margin-top: 250px;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 19px;
+  float: right;
+  border-right: 3px solid #1b1919;
+  animation: blink-caret 0.5s step-end infinite;
+}
+
+
+@keyframes blink-caret {
+  from,to {border-color: transparent;}
+  50% {border-color: #1b1919;}
+}
+
+@keyframes blink-caret { 
+
+  from, to { border-color: transparent}
+  50% {border-color: #1b1919;}
+}
+
+.calculator{
+  width: 100%;
+  background: darkred;
+  box-sizing: border-box;
+  transition: transform 0.5s ease-in-out;
+  height: 750px;
+  overflow: hidden;
+  box-sizing: border-box;
+  max-width: 810px;
+  border-radius: 15px;
+  margin: 40px auto;
+  top: 50px;
+  
+}
+
+.calc-keys { 
+    display: grid;
+    word-spacing: 50px; 
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+ 
+
+  .line1 button{
+    margin-top: 10px;
+    width: 150px;
+    height: 43px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: none;
+  }
+
+  .line2 button{
+    margin-top: 35px;
+    width: 150px;
+    height: 43px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: none;
+  }
+
+  .line3 button{
+    margin-top: 35px;
+    width: 150px;
+    height: 43px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: none;
+  }
+
+  .line4 button{
+    margin-top: 35px;
+    width: 150px;
+    height: 43px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: none;
+  }
+
+  .line5 button{
+    margin-top: 35px;
+    width: 150px;
+    height: 43px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: none;
+  }
